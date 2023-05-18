@@ -1,0 +1,9 @@
+.info_DeviceDetail {
+    display: flex;
+}
+.info_DeviceDetail span {
+    margin-left: 2rem;
+    display: block;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
