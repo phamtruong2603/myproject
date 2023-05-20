@@ -5,8 +5,8 @@ import Google from '../../public/image/google.png'
 import Github from '../../public/image/github.png'
 
 const Home = () => {
-  const [data, setData] = useState();
-  const setPrams = (e) => {
+  const [data, setData] = useState<any>();
+  const setPrams = (e:any) => {
     let name = e.target.name
     let value = e.target.value
     setData({
@@ -15,7 +15,7 @@ const Home = () => {
     })
   }
 
-  const submit = (e) => {
+  const submit = (e:any) => {
     e.preventDefault()
 
   }

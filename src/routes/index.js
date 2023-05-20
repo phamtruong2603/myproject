@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "../layout/home/index.js";
+import Home from "../layout/home/index.tsx";
 import Admin from "../layout/admin/index.js";
 
 export default (

@@ -3,10 +3,10 @@ import { Button, DatePicker, Form, Input } from 'antd';
 import { MessageContexts } from '../../../components/Message/Message';
 
 const CreateAccount = () => {
-    const [data, setData] = useState()
+    const [data, setData] = useState<any>()
     const { messagesuccess, messageerror } = useContext(MessageContexts)
 
-    const setPrams = (e) => {
+    const setPrams = (e: any) => {
         let name = e.target.name
         let value = e.target.value
         setData({
@@ -14,7 +14,7 @@ const CreateAccount = () => {
             [name]: value,
         })
     }
-    const onChange = (date, dateString) => {
+    const onChange = (date: any, dateString: any) => {
         setData({
             ...data,
             "dob": dateString,
@@ -33,7 +33,7 @@ const CreateAccount = () => {
     return (
         <Form
             labelCol={{ span: 4 }}
-            wrAddProjecterCol={{ span: 14 }}
+            wrapperCol={{ span: 14 }}
             style={{ maxWidth: 600 }}
             layout="horizontal"
         >

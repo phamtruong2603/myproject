@@ -1,12 +1,12 @@
 import Statistical from "../layout/admin/Statistical/Statistical.js";
 
 import Device from "../layout/admin/Device";
-import ManageDevice from "../layout/admin/Device/Manage/index.js";
+import ManageDevice from "../layout/admin/Device/Manage/index.tsx";
 
 import Staff from "../layout/admin/Staff";
 import ManageStaff from "../layout/admin/Staff/manage/Manage";
 
-import CreateAccount from "../layout/admin/CreateAccount/CreateAccount";
+import CreateAccount from "../layout/admin/CreateAccount/CreateAccount.tsx";
 
 export const Admin_option = [
     {

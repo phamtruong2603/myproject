@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Layout, Menu, theme } from 'antd';
 import { Route, Routes, useNavigate } from 'react-router-dom';
 import { Admin_option } from '../../routes/adminRoutes.js';
-import Header from '../../components/Header/Header.js';
+import Header from '../../components/Header/Header.tsx';
 
 const { Content, Sider } = Layout;
 
