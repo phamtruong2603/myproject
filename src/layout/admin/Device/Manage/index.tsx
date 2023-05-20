@@ -32,7 +32,7 @@ const ManageDevice = () => {
                 let Render = value.component
                 let path = `/${value.path}/*`
                 if (value.children) {
-                    return value.children.map((val) => {
+                    return value.children.map((val: {id: number; component: any; path: string}) => {
                         Render = val.component
                         return (
                             <Route path={path}>
